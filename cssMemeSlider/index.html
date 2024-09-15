@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>cssMememSlider</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div class="slider_holder">
+          <input
+            type="radio"
+            name="slider"
+            class="trigger"
+            id="slide_one"
+            checked
+          />
+          <input type="radio" name="slider" class="trigger" id="slide_two" />
+          <input type="radio" name="slider" class="trigger" id="slide_three" />
+          <input type="radio" name="slider" class="trigger" id="slide_four" />
+          <div class="slide first">
+            <figure class="slide_figure">
+              <img src="./img_1.jpg" alt="" class="slide_img" />
+              <figcaption class="slide_caption">
+                <p>How Much Is The Fish?</p>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="slide">
+            <figure class="slide_figure">
+              <img src="./img_2.jpg" alt="" class="slide_img" />
+              <figcaption class="slide_caption"><p>Gag! Gag!</p></figcaption>
+            </figure>
+          </div>
+
+          <div class="slide">
+            <figure class="slide_figure">
+              <img src="./img_3.jpg" alt="" class="slide_img" />
+              <figcaption class="slide_caption">
+                <p>Hello Cucarachas!</p>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="slide">
+            <figure class="slide_figure">
+              <img src="./img_4.jpg" alt="" class="slide_img" />
+              <figcaption class="slide_caption">
+                <p>Where is Sparta?</p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <div class="navigator">
+        <label class="slider_nav_label" for="slide_one"
+          ><div class="control" id="dot_1"></div
+        ></label>
+        <label class="slider_nav_label" for="slide_two"
+          ><div class="control" id="dot_2"></div
+        ></label>
+        <label class="slider_nav_label" for="slide_three"
+          ><div class="control" id="dot_3"></div
+        ></label>
+        <label class="slider_nav_label" for="slide_four"
+          ><div class="control" id="dot_4"></div
+        ></label>
+      </div>
+    </div>
+  </body>
+</html>
