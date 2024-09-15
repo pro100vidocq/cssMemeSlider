@@ -13,7 +13,7 @@ body {
   left: 50%;
   width: 1024px;
   height: 768px;
-  background: aquamarine;
+  background: gray;
   transform: translate(-50%, -50%);
   border: 1px solid white;
   overflow: hidden;
@@ -24,7 +24,7 @@ body {
   display: flex;
   gap: 5px;
   right: 0;
-  bottom: 150px;
+  bottom: 147px;
   transform: translate(-50%);
 }
 
@@ -54,9 +54,16 @@ input[type="radio"] {
 .slide_figure {
   position: relative;
   display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 .slide_img {
   width: 100%;
+}
+
+p {
+  font-size: large;
+  color: beige;
 }
 
 #slide_one:checked ~ .first {
