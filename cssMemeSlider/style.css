@@ -22,18 +22,26 @@ body {
 .navigator {
   position: absolute;
   display: flex;
-  gap: 5px;
+
   right: 0;
   bottom: 147px;
   transform: translate(-50%);
 }
 
 .navigator .slider_nav_label {
+  cursor: pointer;
+}
+
+.slider_nav_label .control {
   width: 10px;
   height: 10px;
   border-radius: 50%;
+  background: aqua;
+  margin: 10px 2.5px;
+}
+
+.slider_nav_label:hover .control {
   background: azure;
-  cursor: pointer;
 }
 
 input[type="radio"] {
